@@ -5,7 +5,7 @@
 	<groupId>org.palladiosimulator</groupId>
 	<artifactId>tycho-versions-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>1.3.0-SNAPSHOT</version>
+	<version>1.7.0-SNAPSHOT</version>
 
 	<name>Tycho Versions Plugin</name>
 	<description>A plugin that updates the versions of Eclipse artifacts.</description>
@@ -62,7 +62,7 @@
 		<dependency>
 			<groupId>org.eclipse.tycho</groupId>
 			<artifactId>tycho-versions-plugin</artifactId>
-			<version>1.3.0</version>
+			<version>1.7.0</version>
 		</dependency>
 	</dependencies>
 

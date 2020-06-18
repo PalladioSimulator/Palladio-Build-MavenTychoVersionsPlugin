@@ -159,7 +159,7 @@ public class SetMojo extends AbstractMojo {
         if (ignoreVersionMismatch) {
             newArtifacts += "," + session.getProjects().stream().filter(this::hasTychoPackaging)
                     .filter(mp -> Optional.ofNullable(mp.getFile()).map(File::exists).orElse(false))
-                    .map(MavenProject::getName).collect(Collectors.joining(","));
+                    .map(MavenProject::getArtifactId).collect(Collectors.joining(","));
         }
         return newArtifacts;
     }
